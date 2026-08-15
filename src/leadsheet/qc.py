@@ -10,6 +10,8 @@ def _name(root, prefix):
     return step + ("b" if alter == "-1" else "#" if alter == "1" else "")
 
 def _symbol(harmony):
+    if harmony.find("root") is None:
+        return harmony.find("kind").get("text", "N.C.")
     root = _name(harmony.find("root"), "root"); text = harmony.find("kind").get("text", ""); bass = harmony.find("bass")
     return root + text + ("/" + _name(bass, "bass") if bass is not None else "")
 

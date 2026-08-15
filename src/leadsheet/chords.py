@@ -4,7 +4,7 @@ import re
 
 @dataclass(frozen=True)
 class Chord:
-    root: str
+    root: str | None
     kind: str
     bass: str | None
     display_text: str
@@ -14,10 +14,12 @@ _CHORD = re.compile(r"^(?P<root>[A-G](?:b|#)?)(?P<kind>[^/]*)?(?:/(?P<bass>[A-G]
 
 
 def parse_chord(symbol: str) -> Chord:
+    if symbol in {"N.C.", "NC"}:
+        return Chord(None, "none", None, "N.C.")
     match = _CHORD.fullmatch(symbol)
     if not match:
         raise ValueError(f"unsupported chord symbol: {symbol}")
     return Chord(match["root"], match["kind"] or "", match["bass"], symbol)
 
 
-KIND_MAP = {"": "major", "m": "minor", "m7": "minor-seventh", "7": "dominant", "maj7": "major-seventh", "maj9": "major-ninth"}
+KIND_MAP = {"": "major", "m": "minor", "m7": "minor-seventh", "7": "dominant", "maj7": "major-seventh", "maj9": "major-ninth", "none": "none"}

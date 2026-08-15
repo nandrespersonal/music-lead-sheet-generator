@@ -1,9 +1,1083 @@
 {
-  "title": "Betcha By Golly, Wow", "key": "Eb", "mode": "major", "meter": {"beats": 4, "beat_type": 4}, "tempo": 68, "style": "Slow soul / R&B ballad",
-  "sections": [{"name": "REGRESSION EXCERPT", "starting_measure": 1, "notes": "Minimal known excerpt; import the complete approved transcription when available."}],
-  "measures": [{"number": 1, "section": "REGRESSION EXCERPT", "harmony": [
-    {"symbol": "Ebmaj7", "onset": {"beat": 1, "offset": "0/1"}, "source": "approved regression fact"},
-    {"symbol": "Fm7", "onset": {"beat": 4, "offset": "0/1"}, "source": "approved regression fact"},
-    {"symbol": "Gm7", "onset": {"beat": 4, "offset": "1/2"}, "source": "approved regression fact"}
-  ]}]
+  "title": "Betcha By Golly, Wow",
+  "key": "Eb",
+  "mode": "major",
+  "meter": {
+    "beats": 4,
+    "beat_type": 4
+  },
+  "sections": [
+    {
+      "name": "INTRO",
+      "starting_measure": 1
+    },
+    {
+      "name": "VERSE 1",
+      "starting_measure": 9
+    },
+    {
+      "name": "PRE-CHORUS",
+      "starting_measure": 17
+    },
+    {
+      "name": "CHORUS",
+      "starting_measure": 25
+    },
+    {
+      "name": "VERSE 2",
+      "starting_measure": 37
+    },
+    {
+      "name": "PRE-CHORUS 2",
+      "starting_measure": 45
+    },
+    {
+      "name": "FINAL CHORUS / OUTRO",
+      "starting_measure": 53
+    }
+  ],
+  "measures": [
+    {
+      "number": 1,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 4,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 4,
+            "offset": "1/2"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Abm7/Db",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Gbmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Abm7/Db",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "section": "INTRO",
+      "harmony": [
+        {
+          "symbol": "Gbmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Dm7/G",
+          "onset": {
+            "beat": 4,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Cmaj7",
+          "onset": {
+            "beat": 4,
+            "offset": "1/2"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 4,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 4,
+            "offset": "1/2"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Abm7/Db",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Gbmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Gbm7/Cb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "section": "VERSE 1",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Abmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Abmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "section": "PRE-CHORUS",
+      "harmony": [
+        {
+          "symbol": "Abmaj7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Eb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Bb7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Dm7",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "G7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Cm",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Cm/Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Abmaj7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Eb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Cm",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Cm/Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Ab",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "section": "CHORUS",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Ebmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 4,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 4,
+            "offset": "1/2"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Abm7/Db",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Gbmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Gbm7/Cb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "section": "VERSE 2",
+      "harmony": [
+        {
+          "symbol": "Fm7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Abmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Fm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Gm7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Abmaj7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "section": "PRE-CHORUS 2",
+      "harmony": [
+        {
+          "symbol": "Abmaj7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Eb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Bb7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Dm7",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "G7",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Cm",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Cm/Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Abmaj7/Bb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Eb",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Cm",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Cm/Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Ab",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        },
+        {
+          "symbol": "Bb",
+          "onset": {
+            "beat": 3,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "section": "FINAL CHORUS / OUTRO",
+      "harmony": [
+        {
+          "symbol": "Ebmaj9",
+          "onset": {
+            "beat": 1,
+            "offset": "0/1"
+          },
+          "source": "approved v4 MusicXML"
+        }
+      ]
+    }
+  ],
+  "tempo": 68,
+  "style": "Slow soul / R&B ballad"
 }

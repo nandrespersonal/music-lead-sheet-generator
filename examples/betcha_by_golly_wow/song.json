@@ -1,0 +1,9 @@
+{
+  "title": "Betcha By Golly, Wow", "key": "Eb", "mode": "major", "meter": {"beats": 4, "beat_type": 4}, "tempo": 68, "style": "Slow soul / R&B ballad",
+  "sections": [{"name": "REGRESSION EXCERPT", "starting_measure": 1, "notes": "Minimal known excerpt; import the complete approved transcription when available."}],
+  "measures": [{"number": 1, "section": "REGRESSION EXCERPT", "harmony": [
+    {"symbol": "Ebmaj7", "onset": {"beat": 1, "offset": "0/1"}, "source": "approved regression fact"},
+    {"symbol": "Fm7", "onset": {"beat": 4, "offset": "0/1"}, "source": "approved regression fact"},
+    {"symbol": "Gm7", "onset": {"beat": 4, "offset": "1/2"}, "source": "approved regression fact"}
+  ]}]
+}

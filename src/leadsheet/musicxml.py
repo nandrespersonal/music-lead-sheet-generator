@@ -12,10 +12,12 @@ TYPE = {Fraction(1): "quarter", Fraction(1, 2): "eighth", Fraction(1, 4): "16th"
 def _pitch_parts(name): return name[0], -1 if name.endswith("b") else 1 if name.endswith("#") else 0
 
 def _harmony(parent, symbol):
-    chord = parse_chord(symbol); harmony = ET.SubElement(parent, "harmony"); root = ET.SubElement(harmony, "root")
-    step, alter = _pitch_parts(chord.root); ET.SubElement(root, "root-step").text = step
-    if alter: ET.SubElement(root, "root-alter").text = str(alter)
-    kind = ET.SubElement(harmony, "kind", {"text": chord.kind}); kind.text = KIND_MAP.get(chord.kind, "other")
+    chord = parse_chord(symbol); harmony = ET.SubElement(parent, "harmony")
+    if chord.root:
+        root = ET.SubElement(harmony, "root"); step, alter = _pitch_parts(chord.root); ET.SubElement(root, "root-step").text = step
+        if alter: ET.SubElement(root, "root-alter").text = str(alter)
+    kind_text = chord.display_text if chord.kind == "none" else chord.kind
+    kind = ET.SubElement(harmony, "kind", {"text": kind_text}); kind.text = KIND_MAP.get(chord.kind, "other")
     if chord.bass:
         bass = ET.SubElement(harmony, "bass"); step, alter = _pitch_parts(chord.bass); ET.SubElement(bass, "bass-step").text = step
         if alter: ET.SubElement(bass, "bass-alter").text = str(alter)

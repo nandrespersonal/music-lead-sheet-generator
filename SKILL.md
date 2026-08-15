@@ -7,6 +7,8 @@ description: Convert an approved harmony analysis into validated song.json and d
 
 Use this repository as the canonical renderer. Analyze source audio into an explicit event map, then create or modify `song.json`; do not hand-edit generated MusicXML as the source of truth.
 
+For MP3 input, run `python -m leadsheet ingest-mp3 INPUT --output build/NAME.analysis.json` first. Keep the resulting draft unapproved until its musical event map has been reviewed.
+
 1. Preserve uncertainty and ask for human clarification when key, chord identity, form, or onset is genuinely ambiguous. Never silently omit or invent a chord.
 2. Encode exact onsets using beat plus rational offset and validate the JSON.
 3. Generate MusicXML through `python -m leadsheet generate ...`.

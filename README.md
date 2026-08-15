@@ -17,6 +17,7 @@ python -m pip install -e .[dev]
 python -m leadsheet validate examples/betcha_by_golly_wow/song.json
 python -m leadsheet generate examples/betcha_by_golly_wow/song.json
 python -m leadsheet qc examples/betcha_by_golly_wow/song.json build/Betcha_By_Golly_Wow.musicxml
+python -m leadsheet import-musicxml approved.musicxml migrated-song.json
 pytest
 ```
 

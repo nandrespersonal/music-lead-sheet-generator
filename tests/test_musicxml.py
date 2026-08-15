@@ -8,8 +8,9 @@ def test_eb_slashes_use_bb_without_accidental(betcha_song, tmp_path):
 
 def test_harmony_count_and_beams_survive(betcha_song, tmp_path):
     root = ET.parse(generate(betcha_song, tmp_path / "score.musicxml")).getroot()
-    assert len(root.findall(".//harmony")) == 3
-    assert [b.text for b in root.findall(".//beam")] == ["begin", "end"]
+    assert len(root.findall(".//harmony")) == sum(len(m.harmony) for m in betcha_song.measures) == 82
+    assert [b.text for b in root.findall(".//beam")].count("begin") == 4
+    assert [b.text for b in root.findall(".//beam")].count("end") == 4
 
 def test_layout_preferences_do_not_change_musical_content(betcha_song, tmp_path):
     from dataclasses import replace

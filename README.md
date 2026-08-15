@@ -18,6 +18,7 @@ python -m leadsheet validate examples/betcha_by_golly_wow/song.json
 python -m leadsheet generate examples/betcha_by_golly_wow/song.json
 python -m leadsheet qc examples/betcha_by_golly_wow/song.json build/Betcha_By_Golly_Wow.musicxml
 python -m leadsheet import-musicxml approved.musicxml migrated-song.json
+python -m leadsheet ingest-mp3 recording.mp3 --output build/recording.analysis.json
 pytest
 ```
 
@@ -41,4 +42,6 @@ Rhythmic slashes are notes with slash noteheads, not rests. In Eb major, MuseSco
 Milestone 1 supports simple meters whose beat unit is a quarter note, exact harmony onsets, structured common chord qualities, section rehearsal marks, deterministic MusicXML, and semantic round-trip checks. Tuplets, pickups, repeats/endings, changing keys, advanced chord alterations, automatic layout QC, audio transcription, and MuseScore PDF/MSCZ invocation remain future work. MuseScore is intentionally not required by core tests.
 
 Complete approved transcriptions should be imported into `song.json`, validated, rendered, and reviewed; missing musical facts must be resolved by a musician rather than guessed.
+
+MP3 ingestion validates the file, records immutable source metadata and a SHA-256 digest, and creates an explicitly unapproved analysis draft. It does not pretend that metadata extraction is chord transcription. Audio-analysis backends may populate that draft, but a human/AI musical review must approve the event map before it is promoted to canonical `song.json`.
 Deterministic MusicXML lead-sheet generator and MuseScore workflow
